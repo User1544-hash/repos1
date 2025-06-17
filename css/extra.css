@@ -1,0 +1,153 @@
+.logo{
+    width: 6vw;
+}
+
+.iconStyles{
+    transform: scale(3);
+    color: white;
+    font-weight: 900;
+    margin: 2vw;
+    transition: 0.5s;
+}
+
+.iconStyles:hover{
+    color: #ffa139;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 7vw); 
+  
+}
+
+.iconsFooter{
+    transform: scale(2);
+    margin: 2vw;
+}
+
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #25d366;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-button img {
+  width: 32px;
+  height: 32px;
+}
+
+.map{
+    margin-top: 10px;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1300px){
+
+    .logo{
+     width: 8vw;
+    }
+    .iconStyles{
+        margin: 3vw;
+    }
+
+}
+
+@media (max-width: 1100px){
+
+    .logo{
+     width: 10vw;
+    }
+    .iconStyles{
+     margin: 4vw;
+    }
+}
+
+@media (max-width: 991px){
+
+    .logo{
+        width: 12vw;
+    }
+    .sandwich-icon {
+        font-size: 5vw;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 10vw);  
+    }
+
+}
+
+@media (max-width: 850px){
+
+    .logo{
+     width: 13vw;
+    }
+    .sandwich-icon {
+        font-size: 6vw;
+    }
+    .iconStyles{
+     margin: 4.5vw;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .logo{
+     width: 15vw;
+    }
+    .sandwich-icon {
+        font-size: 7vw;
+    }
+    .iconStyles{
+     margin: 5.5vw;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 13vw);  
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .logo{
+     width: 20vw;
+    }
+    .sandwich-icon {
+        font-size: 9vw;
+    }
+    .iconStyles{
+     margin: 6.5vw;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 15vw);  
+    }
+
+}
+
+@media (max-width: 450px){
+
+    .logo{
+     width: 27vw;
+    }
+    .sandwich-icon {
+        font-size: 12vw;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 20vw);  
+    }
+
+}
